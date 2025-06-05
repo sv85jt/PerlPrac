@@ -1,0 +1,20 @@
+
+        # Powershell
+        try{
+            $a = 10
+            $b = 0
+            $result = $a/$b
+            Write-host "Result : $result"
+        }
+        catch {
+            write-output "An error occurred: $_"
+
+        }
+        Write-host "Checking if this code execute or not"
+
+
+        $a = 10
+        $b = 0
+        $result = $a/$b
+        Write-host "Result : $result"
+        Write-host "Checking if this code execute or not
